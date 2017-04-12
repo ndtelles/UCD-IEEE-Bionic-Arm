@@ -39,7 +39,7 @@ void loop() {
 // Take weighted average of attention with more enphasis on newer values
     averageAttention = averageAttention * 0.4 + attention * 0.6;
 
-// So far we have seen values between 0 and 100 for
+// So far we have seen values between 0 and 100
     averagePosition = 2 * averageAttention;
   }
 
