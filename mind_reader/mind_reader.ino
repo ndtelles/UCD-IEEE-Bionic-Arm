@@ -8,8 +8,8 @@ Servo *servos[numberOfServos];
 float averageAttention = 0;
 float averagePosition = 0;
 float motorPosition = 0; // The current motor position
-float incrementAmount = 0.15; // Controls speed which motor can move from one position to another
-const float buffer = 1; // If the motor is between +buffer or -buffer dont change the position
+float incrementAmount = 0.30; // Controls speed which motor can move from one position to another
+const float buffer = 3; // If the motor is between +buffer or -buffer dont change the position
 
 
 void setup() {
@@ -46,15 +46,16 @@ void loop() {
 // Incrementaly rotate the motor so that the fingers do not jerk around
   if (motorPosition < averagePosition - buffer) {
     motorPosition += incrementAmount;
+    updateServoPositions(motorPosition);
     Serial.println(motorPosition);
     delay(10);
   }
   else if (motorPosition > averagePosition + buffer) {
     motorPosition -= incrementAmount;
+    updateServoPositions(motorPosition);
     Serial.println(motorPosition);
     delay(10);
   }
 
-  updateServoPositions(motorPosition);
 }
 
