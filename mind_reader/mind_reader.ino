@@ -7,7 +7,7 @@ const int numberOfServos = 5;
 Servo *servos[numberOfServos];
 float averageAttention = 15;
 float averagePosition = 0;
-float motorPosition = 0; // The current motor position
+float motorPosition = 30; // The current motor position
 float incrementAmount = 0.30; // Controls speed which motor can move from one position to another
 const float buffer = 3; // If the motor is between +buffer or -buffer dont change the position
 
@@ -25,7 +25,7 @@ void setup() {
 
 void updateServoPositions(float position) {
   for (int i=0; i < numberOfServos; ++i) {
-    servos[i]->write(position);
+//    servos[i]->write(position);
   }
 }
 
