@@ -5,7 +5,7 @@
 Brain brain(Serial);
 const int numberOfServos = 5;
 Servo *servos[numberOfServos];
-float averageAttention = 0;
+float averageAttention = 15;
 float averagePosition = 0;
 float motorPosition = 0; // The current motor position
 float incrementAmount = 0.30; // Controls speed which motor can move from one position to another
@@ -37,7 +37,17 @@ void loop() {
     Serial.println(brain.readCSV());
     int attention = brain.readAttention();
 // Take weighted average of attention with more enphasis on newer values
-    averageAttention = averageAttention * 0.4 + attention * 0.6;
+    averageAttention = averageAttention * 0.4 + (attention + 15) * 0.6;
+
+    // Limit attention to 75, which limits averagePosition to 150 
+    if (averageAttention > 75) {
+      averageAttention = 75;  
+    }
+
+    // Limit attention to a minimum of 15, which limits the minimum of averagePosition to 30
+    if (averageAttention < 15) {
+      averageAttention = 15;
+    }
 
 // So far we have seen values between 0 and 100
     averagePosition = 2 * averageAttention;
@@ -50,7 +60,7 @@ void loop() {
     Serial.println(motorPosition);
     delay(10);
   }
-  else if (motorPosition > averagePosition + buffer) {
+  else if (motorPosition > averagePosition + buffer ) {
     motorPosition -= incrementAmount;
     updateServoPositions(motorPosition);
     Serial.println(motorPosition);
