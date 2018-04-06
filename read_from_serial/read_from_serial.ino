@@ -1,3 +1,12 @@
+/*
+ * This sketch's purpose is to demonstrate how reading from serial works.
+ * If the muse_osc_server is running on the connected computer, the LED on
+ * the arduion will turn on whenever a "1" is received over the serial line.
+ * The led turning on represents that the person wearing the headset is
+ * clenching their jaw
+ */
+
+
 // how much serial data we expect before a newline
 const unsigned int MAX_INPUT = 50;
 
