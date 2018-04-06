@@ -7,10 +7,15 @@ from pythonosc import dispatcher
 from pythonosc import osc_server
 
 # Write eeg data over serial. args[0] should be the serial object
-def eeg_handler(unused_addr, args, ch1, ch2, ch3, ch4, ch5, ch6):
-    print("EEG (uV) per channel: ", ch1, ch2, ch3, ch4, ch5, ch6)
-    data = str(bytearray([ch1, ch2, ch3, ch4, ch5, ch6]))
-    args[0].write(data)
+# def eeg_handler(unused_addr, args, ch1, ch2, ch3, ch4, ch5, ch6):
+#     print("EEG (uV) per channel: ", ch1, ch2, ch3, ch4, ch5, ch6)
+#     data = bytearray([ch1, ch2, ch3, ch4, ch5, ch6])
+#     args[0].write(data)
+
+def jaw_clench_handler(unused_addr, args, val):
+    print("Jaw clenched: ", val)
+    line = str(val) + '\n'
+    args[0].write(line.encode()) 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -30,10 +35,10 @@ if __name__ == "__main__":
                         help="Baud rate of the serial port to write to")                    
     args = parser.parse_args()
 
-    ser = serial.Serial(args.serial_port, args.baudrate, write_timeout=0.05)
+    ser = serial.Serial(args.serial_port, args.baudrate, timeout=0.1)
     dispatcher = dispatcher.Dispatcher()
-    # dispatcher.map("/debug", print)
-    dispatcher.map("/eeg", eeg_handler, ser)
+    # dispatcher.map("/eeg", eeg_handler, ser)
+    dispatcher.map("/elements/jaw_clench", jaw_clench_handler, ser)
 
     server = osc_server.ThreadingOSCUDPServer(
         (args.ip, args.port), dispatcher)
