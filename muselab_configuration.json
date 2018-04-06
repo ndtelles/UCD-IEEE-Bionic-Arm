@@ -1,0 +1,1578 @@
+{
+  "Control Pane": {
+    "Is Visible": true
+  },
+  "Incoming OSC Config": {
+    "Receiving Ports": [
+      {
+        "Port": 7000,
+        "UDP": true
+      }
+    ]
+  },
+  "Outgoing OSC Config": {
+    "Forwarding": []
+  },
+  "DSP Config": {
+    "DSP Function Settings": [],
+    "DSP Signals": []
+  },
+  "Signal ID Groups": [
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Green",
+          "Label": "Person0/notch_filtered_eeg"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Blue",
+                "Label": "Person0/notch_filtered_eeg (0)"
+              },
+              "Signal Source": "Person0/notch_filtered_eeg",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Cyan",
+                "Label": "Person0/notch_filtered_eeg (1)"
+              },
+              "Signal Source": "Person0/notch_filtered_eeg",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Dark Khaki",
+                "Label": "Person0/notch_filtered_eeg (2)"
+              },
+              "Signal Source": "Person0/notch_filtered_eeg",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Fuchsia",
+                "Label": "Person0/notch_filtered_eeg (3)"
+              },
+              "Signal Source": "Person0/notch_filtered_eeg",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Orange",
+          "Label": "Person0/eeg"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Green Yellow",
+                "Label": "Person0/eeg (0)"
+              },
+              "Signal Source": "Person0/eeg",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Khaki",
+                "Label": "Person0/eeg (1)"
+              },
+              "Signal Source": "Person0/eeg",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Blue",
+                "Label": "Person0/eeg (2)"
+              },
+              "Signal Source": "Person0/eeg",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Cyan",
+                "Label": "Person0/eeg (3)"
+              },
+              "Signal Source": "Person0/eeg",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Green",
+                "Label": "Person0/eeg (4)"
+              },
+              "Signal Source": "Person0/eeg",
+              "Index": 4,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Salmon",
+                "Label": "Person0/eeg (5)"
+              },
+              "Signal Source": "Person0/eeg",
+              "Index": 5,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Silver",
+          "Label": "Person0/gyro"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Purple",
+                "Label": "Person0/gyro (0)"
+              },
+              "Signal Source": "Person0/gyro",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Red",
+                "Label": "Person0/gyro (1)"
+              },
+              "Signal Source": "Person0/gyro",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Salmon",
+                "Label": "Person0/gyro (2)"
+              },
+              "Signal Source": "Person0/gyro",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Cyan",
+          "Label": "Person0/acc"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "White",
+                "Label": "Person0/acc (0)"
+              },
+              "Signal Source": "Person0/acc",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Yellow",
+                "Label": "Person0/acc (1)"
+              },
+              "Signal Source": "Person0/acc",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Blue",
+                "Label": "Person0/acc (2)"
+              },
+              "Signal Source": "Person0/acc",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Light Green",
+          "Label": "Person0/elements/alpha_absolute"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Green Yellow",
+                "Label": "Person0/elements/alpha_absolute (0)"
+              },
+              "Signal Source": "Person0/elements/alpha_absolute",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Khaki",
+                "Label": "Person0/elements/alpha_absolute (1)"
+              },
+              "Signal Source": "Person0/elements/alpha_absolute",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Blue",
+                "Label": "Person0/elements/alpha_absolute (2)"
+              },
+              "Signal Source": "Person0/elements/alpha_absolute",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Cyan",
+                "Label": "Person0/elements/alpha_absolute (3)"
+              },
+              "Signal Source": "Person0/elements/alpha_absolute",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Salmon",
+          "Label": "Person0/elements/beta_absolute"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Salmon",
+                "Label": "Person0/elements/beta_absolute (0)"
+              },
+              "Signal Source": "Person0/elements/beta_absolute",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Orange",
+                "Label": "Person0/elements/beta_absolute (1)"
+              },
+              "Signal Source": "Person0/elements/beta_absolute",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Purple",
+                "Label": "Person0/elements/beta_absolute (2)"
+              },
+              "Signal Source": "Person0/elements/beta_absolute",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Red",
+                "Label": "Person0/elements/beta_absolute (3)"
+              },
+              "Signal Source": "Person0/elements/beta_absolute",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Cyan",
+          "Label": "Person0/elements/delta_absolute"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Silver",
+                "Label": "Person0/elements/delta_absolute (0)"
+              },
+              "Signal Source": "Person0/elements/delta_absolute",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "White",
+                "Label": "Person0/elements/delta_absolute (1)"
+              },
+              "Signal Source": "Person0/elements/delta_absolute",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Yellow",
+                "Label": "Person0/elements/delta_absolute (2)"
+              },
+              "Signal Source": "Person0/elements/delta_absolute",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Blue",
+                "Label": "Person0/elements/delta_absolute (3)"
+              },
+              "Signal Source": "Person0/elements/delta_absolute",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Khaki",
+          "Label": "Person0/elements/theta_absolute"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Dark Khaki",
+                "Label": "Person0/elements/theta_absolute (0)"
+              },
+              "Signal Source": "Person0/elements/theta_absolute",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Fuchsia",
+                "Label": "Person0/elements/theta_absolute (1)"
+              },
+              "Signal Source": "Person0/elements/theta_absolute",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Green",
+                "Label": "Person0/elements/theta_absolute (2)"
+              },
+              "Signal Source": "Person0/elements/theta_absolute",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Green Yellow",
+                "Label": "Person0/elements/theta_absolute (3)"
+              },
+              "Signal Source": "Person0/elements/theta_absolute",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Orange",
+          "Label": "Person0/elements/gamma_absolute"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Blue",
+                "Label": "Person0/elements/gamma_absolute (0)"
+              },
+              "Signal Source": "Person0/elements/gamma_absolute",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Cyan",
+                "Label": "Person0/elements/gamma_absolute (1)"
+              },
+              "Signal Source": "Person0/elements/gamma_absolute",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Green",
+                "Label": "Person0/elements/gamma_absolute (2)"
+              },
+              "Signal Source": "Person0/elements/gamma_absolute",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Salmon",
+                "Label": "Person0/elements/gamma_absolute (3)"
+              },
+              "Signal Source": "Person0/elements/gamma_absolute",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "White",
+          "Label": "Person0/elements/alpha_relative"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Purple",
+                "Label": "Person0/elements/alpha_relative (0)"
+              },
+              "Signal Source": "Person0/elements/alpha_relative",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Red",
+                "Label": "Person0/elements/alpha_relative (1)"
+              },
+              "Signal Source": "Person0/elements/alpha_relative",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Salmon",
+                "Label": "Person0/elements/alpha_relative (2)"
+              },
+              "Signal Source": "Person0/elements/alpha_relative",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Silver",
+                "Label": "Person0/elements/alpha_relative (3)"
+              },
+              "Signal Source": "Person0/elements/alpha_relative",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Fuchsia",
+          "Label": "Person0/elements/beta_relative"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Yellow",
+                "Label": "Person0/elements/beta_relative (0)"
+              },
+              "Signal Source": "Person0/elements/beta_relative",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Blue",
+                "Label": "Person0/elements/beta_relative (1)"
+              },
+              "Signal Source": "Person0/elements/beta_relative",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Cyan",
+                "Label": "Person0/elements/beta_relative (2)"
+              },
+              "Signal Source": "Person0/elements/beta_relative",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Dark Khaki",
+                "Label": "Person0/elements/beta_relative (3)"
+              },
+              "Signal Source": "Person0/elements/beta_relative",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Light Cyan",
+          "Label": "Person0/elements/delta_relative"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Green",
+                "Label": "Person0/elements/delta_relative (0)"
+              },
+              "Signal Source": "Person0/elements/delta_relative",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Green Yellow",
+                "Label": "Person0/elements/delta_relative (1)"
+              },
+              "Signal Source": "Person0/elements/delta_relative",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Khaki",
+                "Label": "Person0/elements/delta_relative (2)"
+              },
+              "Signal Source": "Person0/elements/delta_relative",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Blue",
+                "Label": "Person0/elements/delta_relative (3)"
+              },
+              "Signal Source": "Person0/elements/delta_relative",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Red",
+          "Label": "Person0/elements/theta_relative"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Green",
+                "Label": "Person0/elements/theta_relative (0)"
+              },
+              "Signal Source": "Person0/elements/theta_relative",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Salmon",
+                "Label": "Person0/elements/theta_relative (1)"
+              },
+              "Signal Source": "Person0/elements/theta_relative",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Orange",
+                "Label": "Person0/elements/theta_relative (2)"
+              },
+              "Signal Source": "Person0/elements/theta_relative",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Purple",
+                "Label": "Person0/elements/theta_relative (3)"
+              },
+              "Signal Source": "Person0/elements/theta_relative",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Blue",
+          "Label": "Person0/elements/gamma_relative"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Salmon",
+                "Label": "Person0/elements/gamma_relative (0)"
+              },
+              "Signal Source": "Person0/elements/gamma_relative",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Silver",
+                "Label": "Person0/elements/gamma_relative (1)"
+              },
+              "Signal Source": "Person0/elements/gamma_relative",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "White",
+                "Label": "Person0/elements/gamma_relative (2)"
+              },
+              "Signal Source": "Person0/elements/gamma_relative",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Yellow",
+                "Label": "Person0/elements/gamma_relative (3)"
+              },
+              "Signal Source": "Person0/elements/gamma_relative",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Green Yellow",
+          "Label": "Person0/elements/alpha_session_score"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Cyan",
+                "Label": "Person0/elements/alpha_session_score (0)"
+              },
+              "Signal Source": "Person0/elements/alpha_session_score",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Dark Khaki",
+                "Label": "Person0/elements/alpha_session_score (1)"
+              },
+              "Signal Source": "Person0/elements/alpha_session_score",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Fuchsia",
+                "Label": "Person0/elements/alpha_session_score (2)"
+              },
+              "Signal Source": "Person0/elements/alpha_session_score",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Green",
+                "Label": "Person0/elements/alpha_session_score (3)"
+              },
+              "Signal Source": "Person0/elements/alpha_session_score",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Light Salmon",
+          "Label": "Person0/elements/beta_session_score"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Khaki",
+                "Label": "Person0/elements/beta_session_score (0)"
+              },
+              "Signal Source": "Person0/elements/beta_session_score",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Blue",
+                "Label": "Person0/elements/beta_session_score (1)"
+              },
+              "Signal Source": "Person0/elements/beta_session_score",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Cyan",
+                "Label": "Person0/elements/beta_session_score (2)"
+              },
+              "Signal Source": "Person0/elements/beta_session_score",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Green",
+                "Label": "Person0/elements/beta_session_score (3)"
+              },
+              "Signal Source": "Person0/elements/beta_session_score",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Silver",
+          "Label": "Person0/elements/delta_session_score"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Orange",
+                "Label": "Person0/elements/delta_session_score (0)"
+              },
+              "Signal Source": "Person0/elements/delta_session_score",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Purple",
+                "Label": "Person0/elements/delta_session_score (1)"
+              },
+              "Signal Source": "Person0/elements/delta_session_score",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Red",
+                "Label": "Person0/elements/delta_session_score (2)"
+              },
+              "Signal Source": "Person0/elements/delta_session_score",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Salmon",
+                "Label": "Person0/elements/delta_session_score (3)"
+              },
+              "Signal Source": "Person0/elements/delta_session_score",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Dark Khaki",
+          "Label": "Person0/elements/theta_session_score"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "White",
+                "Label": "Person0/elements/theta_session_score (0)"
+              },
+              "Signal Source": "Person0/elements/theta_session_score",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Yellow",
+                "Label": "Person0/elements/theta_session_score (1)"
+              },
+              "Signal Source": "Person0/elements/theta_session_score",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Blue",
+                "Label": "Person0/elements/theta_session_score (2)"
+              },
+              "Signal Source": "Person0/elements/theta_session_score",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Cyan",
+                "Label": "Person0/elements/theta_session_score (3)"
+              },
+              "Signal Source": "Person0/elements/theta_session_score",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Light Blue",
+          "Label": "Person0/elements/gamma_session_score"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Fuchsia",
+                "Label": "Person0/elements/gamma_session_score (0)"
+              },
+              "Signal Source": "Person0/elements/gamma_session_score",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Green",
+                "Label": "Person0/elements/gamma_session_score (1)"
+              },
+              "Signal Source": "Person0/elements/gamma_session_score",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Green Yellow",
+                "Label": "Person0/elements/gamma_session_score (2)"
+              },
+              "Signal Source": "Person0/elements/gamma_session_score",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Khaki",
+                "Label": "Person0/elements/gamma_session_score (3)"
+              },
+              "Signal Source": "Person0/elements/gamma_session_score",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Purple",
+          "Label": "Person0/elements/is_good"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Cyan",
+                "Label": "Person0/elements/is_good (0)"
+              },
+              "Signal Source": "Person0/elements/is_good",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Green",
+                "Label": "Person0/elements/is_good (1)"
+              },
+              "Signal Source": "Person0/elements/is_good",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Light Salmon",
+                "Label": "Person0/elements/is_good (2)"
+              },
+              "Signal Source": "Person0/elements/is_good",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Orange",
+                "Label": "Person0/elements/is_good (3)"
+              },
+              "Signal Source": "Person0/elements/is_good",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Yellow",
+          "Label": "Person0/elements/horseshoe"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Red",
+                "Label": "Person0/elements/horseshoe (0)"
+              },
+              "Signal Source": "Person0/elements/horseshoe",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Salmon",
+                "Label": "Person0/elements/horseshoe (1)"
+              },
+              "Signal Source": "Person0/elements/horseshoe",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Silver",
+                "Label": "Person0/elements/horseshoe (2)"
+              },
+              "Signal Source": "Person0/elements/horseshoe",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "White",
+                "Label": "Person0/elements/horseshoe (3)"
+              },
+              "Signal Source": "Person0/elements/horseshoe",
+              "Index": 3,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Dark Khaki",
+          "Label": "Person0/drlref"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Blue",
+                "Label": "Person0/drlref (0)"
+              },
+              "Signal Source": "Person0/drlref",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Cyan",
+                "Label": "Person0/drlref (1)"
+              },
+              "Signal Source": "Person0/drlref",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Signal Type": "GROUP",
+      "Signal": {
+        "Base": {
+          "Colour": "Khaki",
+          "Label": "Person0/batt"
+        },
+        "IDs": [
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Fuchsia",
+                "Label": "Person0/batt (0)"
+              },
+              "Signal Source": "Person0/batt",
+              "Index": 0,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Green",
+                "Label": "Person0/batt (1)"
+              },
+              "Signal Source": "Person0/batt",
+              "Index": 1,
+              "Port": 7000,
+              "TCP": false
+            }
+          },
+          {
+            "Signal Type": "OSC",
+            "Signal": {
+              "Base": {
+                "Colour": "Green Yellow",
+                "Label": "Person0/batt (2)"
+              },
+              "Signal Source": "Person0/batt",
+              "Index": 2,
+              "Port": 7000,
+              "TCP": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "Visualizers": [
+    {
+      "Visualizer Type": "Scrolling Line Graph",
+      "Visualizer Settings": {
+        "Label": "EEG",
+        "Max Amplitude": 5000.0,
+        "Min Amplitude": -5000.0,
+        "Override Master Time": false,
+        "Time Range": 10000000000,
+        "Spread Signals Apart": true,
+        "Spread Factor": 1.0,
+        "Data Lines": [
+          {
+            "Signal": {
+              "Signal Type": "OSC",
+              "Signal": {
+                "Base": {
+                  "Colour": "Light Cyan",
+                  "Label": "Person0/eeg (3)"
+                },
+                "Signal Source": "Person0/eeg",
+                "Index": 3,
+                "Port": 7000,
+                "TCP": false
+              }
+            },
+            "Zeroed": true,
+            "Assuming Uniform Rate": true
+          },
+          {
+            "Signal": {
+              "Signal Type": "OSC",
+              "Signal": {
+                "Base": {
+                  "Colour": "Light Blue",
+                  "Label": "Person0/eeg (2)"
+                },
+                "Signal Source": "Person0/eeg",
+                "Index": 2,
+                "Port": 7000,
+                "TCP": false
+              }
+            },
+            "Zeroed": true,
+            "Assuming Uniform Rate": true
+          },
+          {
+            "Signal": {
+              "Signal Type": "OSC",
+              "Signal": {
+                "Base": {
+                  "Colour": "Khaki",
+                  "Label": "Person0/eeg (1)"
+                },
+                "Signal Source": "Person0/eeg",
+                "Index": 1,
+                "Port": 7000,
+                "TCP": false
+              }
+            },
+            "Zeroed": true,
+            "Assuming Uniform Rate": true
+          },
+          {
+            "Signal": {
+              "Signal Type": "OSC",
+              "Signal": {
+                "Base": {
+                  "Colour": "Green Yellow",
+                  "Label": "Person0/eeg (0)"
+                },
+                "Signal Source": "Person0/eeg",
+                "Index": 0,
+                "Port": 7000,
+                "TCP": false
+              }
+            },
+            "Zeroed": true,
+            "Assuming Uniform Rate": true
+          }
+        ]
+      }
+    },
+    {
+      "Visualizer Type": "Scrolling Line Graph",
+      "Visualizer Settings": {
+        "Label": "Jaw Clench",
+        "Max Amplitude": 2.4414062,
+        "Min Amplitude": -2.4414062,
+        "Override Master Time": false,
+        "Time Range": 10000000000,
+        "Spread Signals Apart": true,
+        "Spread Factor": 1.0,
+        "Data Lines": [
+          {
+            "Signal": {
+              "Signal Type": "OSC",
+              "Signal": {
+                "Base": {
+                  "Colour": "Fuchsia",
+                  "Label": "Person0/elements/jaw_clench (0)"
+                },
+                "Signal Source": "Person0/elements/jaw_clench",
+                "Index": 0,
+                "Port": 7000,
+                "TCP": false
+              }
+            },
+            "Zeroed": true,
+            "Assuming Uniform Rate": true
+          },
+          {
+            "Signal": {
+              "Signal Type": "OSC",
+              "Signal": {
+                "Base": {
+                  "Colour": "Dark Khaki",
+                  "Label": "Person0/elements/blink (0)"
+                },
+                "Signal Source": "Person0/elements/blink",
+                "Index": 0,
+                "Port": 7000,
+                "TCP": false
+              }
+            },
+            "Zeroed": true,
+            "Assuming Uniform Rate": true
+          }
+        ]
+      }
+    }
+  ],
+  "Marker": {
+    "Markings": [
+      "/Marker/0",
+      "/Marker/1",
+      "/Marker/2",
+      "/Marker/3",
+      "/Marker/4",
+      "/Marker/5",
+      "/Marker/6",
+      "/Marker/7",
+      "/Marker/8",
+      "/Marker/9"
+    ]
+  }
+}
